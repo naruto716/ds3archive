@@ -1,0 +1,2 @@
+@g++.exe -o "F:\Steam\steamapps\common\DARK SOULS III\Game\d3d9.dll" d3d9.cpp d3d9.h d3d9.s d3d9.def -O3 -DSTRSAFE_NO_DEPRECATE -mcmodel=small -Wno-multichar -lmsvcrt -lntdll -lkernel32 -luser32 -ladvapi32 -shared --freestanding -fno-exceptions -fno-unwind-tables -fno-asynchronous-unwind-tables -nostartfiles -nostdlib -Wl,--image-base,0x105000000,-e,DllMain,--allow-multiple-definition,--gc-sections,--relax,-s,--exclude-all-symbols
+@pause
